@@ -1,0 +1,31 @@
+Where I found my RESOURCES (training, icons, etc)
+
+ICONS: 
+Icons are free and came from:
+https://fonts.google.com/ 
+
+I downloaded my icons into the folder: 
+C:/Users/trang/React_Udemy/React_Udemy/icons
+
+COLORS:
+Triad Color Picker - 
+https://www.sessions.edu/color-calculator/ 
+
+FILES IN THIS REACT-APP -
+
+App.jsx
+<Header />
+<CoreConcepts />
+
+<Header />
+variable
+randomly generated word
+traverses: up 2 Folder Levels   "../assets/air.png"
+           import reactImg from '../assets/webhook.png'; 
+
+<CoreConcepts />
+brings in data (data) via App.jsx
+
+<TabButton />
+
+<MyExampleProps />

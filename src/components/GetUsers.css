@@ -1,0 +1,42 @@
+/* Container for Cards */
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+/* Card Styles */
+.user-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+/* User Information */
+.user-name {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 0px;
+}
+.user-detail {
+  font-size: 1rem;
+  color: gray; /* #495057; */
+  margin: 0px 0;
+  text-align: center;
+}
+.user-detail strong {
+  color: rgb(1, 177, 39); /* #495057; */
+}
